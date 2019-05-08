@@ -13,6 +13,7 @@ public class Picture {
     public void add(Drawable element) {
         if(count < MAX_COUNT) {
             this.elements[count] = element;
+            this.count++;
         }
     }
 
